@@ -9,3 +9,13 @@ while True:
     if numero > 10 or numero < 0:
         st.error ("Escreva um algoritmo que solicite ao usuario a nota de um aluno!")
         break
+    else:
+        if numero >= 7:
+            st.success ("Aprovado")
+            break
+        elif numero >= 5:
+            st.warning ("Recuperação")
+            break
+        else:
+            st.error ("Reprovado")
+            break
