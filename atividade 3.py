@@ -9,6 +9,7 @@ while True:
 
     if login == "Rian" and senha == 1234:
         print ("===Seja bem-vindo===")
+        break
     else:
         print ("Login ou senha inválido!!")
-        break
+        
