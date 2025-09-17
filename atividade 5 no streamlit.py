@@ -7,7 +7,8 @@ n3 = st.number_input("Digite a terceira nota do aluno: ", step=1, min_value=0)
 
 media = (n1 + n2 + n3) / 3
 
-while True:
+if st.button ("Verificar"):
+ while True:
     if media > 7:
      st.success (f"Parabens, sua média foi {media: .1f} e está aprovado!!")
      break
