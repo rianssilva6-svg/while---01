@@ -18,10 +18,3 @@ while True:
 print (f"pares: {pares}")
 print (f"impares: {impares}")
 print (f"media dos pares: {media}")
-
-
-
-
-
-
-  
